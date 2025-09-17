@@ -9,26 +9,31 @@
 </head>
 <body class="font-['Noto_Sans'] bg-orange-50">
     <!-- Header -->
-    <header class="w-full h-20 bg-white flex justify-center items-center">
-        <nav class="flex justify-between items-center w-full max-w-screen-2xl px-8">
-            <div class="text-4xl font-normal font-['Belleza'] text-black leading-10">
-                Saylor's Mirissa
-            </div>
-            
-            <div class="hidden md:flex justify-center items-center gap-20">
-                <x-mary-menu-item title="HOME" link="#home" class="text-stone-400 text-lg font-normal font-['Noto_Sans'] leading-snug hover:text-stone-700 transition-colors" />
-                <x-mary-menu-item title="ACCOMMODATION" link="#accommodation" class="text-stone-700 text-lg font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
-                <x-mary-menu-item title="LOCATION" link="/location" class="text-stone-700 text-lg font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
-                <x-mary-menu-item title="EXPERIENCES" link="#experiences" class="text-stone-700 text-lg font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
-                <x-mary-menu-item title="ABOUT" link="#about" class="text-stone-700 text-lg font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
-            </div>
-            
-            <div class="flex items-center gap-4">
-                <div class="text-stone-400 text-lg font-normal font-['Noto_Sans'] leading-snug">Check Availability</div>
-                <div class="w-48 h-11 border border-stone-400"></div>
-            </div>
-        </nav>
-    </header>
+   <header class="w-full h-20 bg-white flex justify-between items-center">
+    <nav class="flex justify-between items-center w-full px-8">
+        <!-- Left Side: Saylor's Mirissa -->
+        <div class="text-2xl font-normal font-['Belleza'] text-black leading-10">
+            Saylor's Mirissa
+        </div>
+
+        <!-- Center: Navigation Menu Items -->
+        <div class="hidden md:flex justify-center items-center gap-10 mx-auto">
+            <x-mary-menu-item title="HOME" link="#home" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-700 transition-colors" />
+            <x-mary-menu-item title="ACCOMMODATION" link="#accommodation" class="text-stone-700 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
+            <x-mary-menu-item title="LOCATION" link="/location" class="text-stone-700 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
+            <x-mary-menu-item title="EXPERIENCES" link="#experiences" class="text-stone-700 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
+            <x-mary-menu-item title="ABOUT" link="#about" class="text-stone-700 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-400 transition-colors" />
+        </div>
+
+        <!-- Right Side: Check Availability and Button -->
+       <a href="#availability" 
+   class="px-4 py-2 rounded-2xl bg-stone-700 text-white text-sm font-['Noto_Sans'] hover:bg-stone-500 transition-colors">
+   Check Availability
+</a>
+
+    </nav>
+</header>
+
 
     <!-- Main Content -->
     <main>
