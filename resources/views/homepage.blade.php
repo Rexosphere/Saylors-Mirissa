@@ -41,58 +41,68 @@
 
 
     <!-- Booking Form Section -->
-    <section class="bg-white py-8 shadow-lg">
-        <div class="max-w-screen-xl mx-auto px-4">
-            <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-                <!-- Check In -->
-                <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-                    <div class="w-6 h-6 bg-teal-500 rounded"></div>
-                    <div>
-                        <div class="text-stone-400 text-xs font-['Noto_Sans']">Check In</div>
-                        <div class="text-black text-base font-['Noto_Sans']">14 Sep 2025</div>
-                    </div>
-                </div>
-                
-                <div class="w-px h-8 bg-stone-400 hidden md:block"></div>
-                
-                <!-- Check Out -->
-                <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-                    <div class="w-6 h-6 bg-teal-500 rounded"></div>
-                    <div>
-                        <div class="text-stone-400 text-xs font-['Noto_Sans']">Check Out</div>
-                        <div class="text-black text-base font-['Noto_Sans']">17 Sep 2025</div>
-                    </div>
-                </div>
-                
-                <div class="w-px h-8 bg-stone-400 hidden md:block"></div>
-                
-                <!-- No of adults -->
-                <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-                    <div class="w-6 h-6 bg-teal-500 rounded"></div>
-                    <div>
-                        <div class="text-stone-400 text-xs font-['Noto_Sans']">No of adults</div>
-                        <div class="text-black text-base font-['Noto_Sans']">01</div>
-                    </div>
-                </div>
-                
-                <div class="w-px h-8 bg-stone-400 hidden md:block"></div>
-                
-                <!-- No of children -->
-                <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-                    <div class="w-6 h-6 bg-teal-500 rounded"></div>
-                    <div>
-                        <div class="text-stone-400 text-xs font-['Noto_Sans']">No of children</div>
-                        <div class="text-black text-base font-['Noto_Sans']">01</div>
-                    </div>
-                </div>
-                
-                <!-- Check Now Button -->
-                <button class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full font-bold font-['Noto_Sans'] transition-colors">
-                    CHECK NOW
-                </button>
-            </div>
+   <section class="bg-white py-8 shadow-lg">
+  <div class="max-w-screen-xl mx-auto px-4">
+    <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
+
+      <!-- Check In -->
+      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
+        <div class="w-6 h-6 bg-teal-500 rounded"></div>
+        <div>
+          <div class="text-stone-400 text-xs font-['Noto_Sans']">Check In</div>
+          <div class="text-black text-base font-['Noto_Sans']">14 Sep 2025</div>
         </div>
-    </section>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+
+      <!-- Check Out -->
+      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
+<div class="w-6 h-6">
+  <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
+</div>
+
+
+        <div>
+          <div class="text-stone-400 text-xs font-['Noto_Sans']">Check Out</div>
+          <div class="text-black text-base font-['Noto_Sans']">17 Sep 2025</div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+
+      <!-- No of adults -->
+      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
+        <div class="w-6 h-6 bg-teal-500 rounded"></div>
+        <div>
+          <div class="text-stone-400 text-xs font-['Noto_Sans']">No of adults</div>
+          <div class="text-black text-base font-['Noto_Sans']">03</div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+
+      <!-- No of children -->
+      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
+        <div class="w-6 h-6 bg-teal-500 rounded"></div>
+        <div>
+          <div class="text-stone-400 text-xs font-['Noto_Sans']">No of children</div>
+          <div class="text-black text-base font-['Noto_Sans']">01</div>
+        </div>
+      </div>
+
+      <!-- Check Now Button -->
+      <button class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full font-bold font-['Noto_Sans'] transition-colors">
+        CHECK NOW
+      </button>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- Location Section -->
     <section id="location" class="py-20 bg-orange-50">
