@@ -2,24 +2,43 @@
     <x-slot:title>Saylor's Mirissa - Your Chill Spot in Paradise</x-slot:title>
 
     <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center justify-center"
-             style="background-image: url('/Home.png'); background-size: cover; background-position: center;">
-        <div class="absolute inset-0 bg-black/30"></div>
-        
-        <div class="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-            <h1 class="text-6xl md:text-7xl font-bold font-['STIX_Two_Text'] mb-6 leading-tight text-neutral-50">
-                Your Chill Spot in Paradise
-            </h1>
-            <p class="text-xl md:text-2xl font-light font-['Noto_Sans'] mb-8 leading-relaxed max-w-3xl mx-auto text-neutral-50">
-                Wake up in the heart of Mirissa, roll out of bed, and you're already living your best life. 
-                Everything you want is within a wave's reach.
-            </p>
-            <div class="flex flex-col items-center gap-4">
-                <div class="text-lg font-normal font-['Noto_Sans'] tracking-widest text-neutral-50">CHECK AVAILABILITY</div>
-                <div class="w-48 h-0.5 bg-neutral-50"></div>
-            </div>
-        </div>
-    </section>
+<section id="home" 
+         class="relative min-h-screen flex items-center justify-start pl-15"
+         style="background-image: url('/images/home.png'); background-size: cover; background-position: center;">
+
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/30"></div>
+    
+  <!-- Hero content (top-left) -->
+  <div class="relative z-10 text-white px-8 py-8 text-left max-w-full">
+    <h1 class="text-6xl md:text-7xl font-bold font-['STIX_Two_Text'] mb-6 leading-tight text-neutral-50">
+      Your Chill Spot in Paradise
+    </h1>
+    <p class="text-xl md:text-2xl font-light font-['Noto_Sans'] mb-8 leading-relaxed text-neutral-50 whitespace-pre-line">
+      Wake up in the heart of Mirissa, roll out of bed. 
+      and you're already living your best life. 
+      Everything you want is within a wave's reach.
+    </p>
+
+    <div class="flex flex-col items-start gap-4">
+      <div class="text-lg font-normal font-['Noto_Sans'] tracking-widest text-neutral-50">
+        CHECK AVAILABILITY
+      </div>
+      <div class="w-48 h-0.5 bg-neutral-50"></div>
+    </div>
+  </div>
+
+  <!-- Wave divider -->
+  <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+    <svg class="relative block w-full h-48" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#ffffff" fill-opacity="1" 
+            d="M0,224 C480,0 960,448 1440,224 L1440,320 L0,320Z"></path>
+    </svg>
+  </div>
+</section>
+
+
 
     <!-- Booking Form Section -->
     <section class="bg-white py-8 shadow-lg">
