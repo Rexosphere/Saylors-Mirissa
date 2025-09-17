@@ -9,7 +9,8 @@
 </head>
 <body class="font-['Noto_Sans'] bg-orange-50">
     <!-- Header -->
-   <header class="w-full h-20 bg-white flex justify-between items-center">
+<header class="fixed top-0 left-0 w-full h-20 bg-white flex justify-between items-center shadow-md z-50">
+
     <nav class="flex justify-between items-center w-full px-8">
         <!-- Left Side: Saylor's Mirissa -->
         <div class="text-2xl font-normal font-['Belleza'] text-black leading-10">
