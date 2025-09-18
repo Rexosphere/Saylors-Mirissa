@@ -159,6 +159,41 @@
   </div>
 </section>
 
+<section class="bg-[#FEFAF5] py-16">
+  <div class="max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
+      
+      <!-- Item 1 -->
+      <div class="flex flex-col items-center">
+        <img src="images/icons/image16.png" alt="Airport Icon" class="h-12 w-12 mb-2 object-contain">
+        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+        <p class="text-sm text-gray-700">2.5 hours from <br> the airport</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex flex-col items-center">
+      <img src="images/icons/image17.png" alt="highwayIcon" class="h-12 w-12 mb-2 object-contain">
+        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+        <p class="text-sm text-gray-700">Minutes away from the <br> Southern Expressway</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="flex flex-col items-center">
+         <img src="images/icons/image18.png" alt="mobile Icon" class="h-12 w-12 mb-2 object-contain">
+        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+        <p class="text-sm text-gray-700">24/7 available <br> Tuk-tuks and taxis</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="flex flex-col items-center">
+        <img src="images/icons/image19.png" alt="walk Icon" class="h-12 w-12 mb-2 object-contain">
+        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+        <p class="text-sm text-gray-700">Walk to most <br> Mirissa highlights</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -219,7 +254,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-16 bg-orange-50">
+    {{-- <section class="py-16 bg-orange-50">
         <div class="max-w-screen-xl mx-auto px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                 <div class="flex flex-col items-center gap-4">
@@ -248,6 +283,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 </x-layout>
