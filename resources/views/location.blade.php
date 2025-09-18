@@ -3,7 +3,7 @@
 
     <!-- Hero Section -->
     <section class="relative h-96 flex items-center justify-center"
-             style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1920&h=400&fit=crop'); background-size: cover; background-position: center;">
+             style="background-image: url('{{ asset('images/location/locationhero.png') }}'); background-size: cover; background-position: center;">
         <div class="absolute inset-0 bg-black/40"></div>
         
         
@@ -26,7 +26,7 @@
                 <div class="order-2 lg:order-1">
                     <div class="bg-white rounded-3xl shadow-xl p-8 h-96">
                         <img class="w-full h-full object-cover rounded-2xl" 
-                             src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=400&fit=crop" 
+                             src="{{ asset('images/location/gallemap.png') }}" 
                              alt="Mirissa Location Map" />
                     </div>
                 </div>
@@ -66,29 +66,29 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Large Image -->
                 <div class="md:col-span-1 lg:col-span-2 md:row-span-2">
-                    <img class="w-full h-full min-h-96 object-cover rounded-3xl shadow-lg" 
-                         src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop" 
+                    <img class="w-100 h-100 min-h-60 object-cover rounded-3xl shadow-lg" 
+                         src="{{ asset('images/location/galle1.png') }}" 
                          alt="Galle Fort Aerial View" />
                 </div>
                 
                 <!-- Top Right -->
                 <div class="lg:col-span-1">
                     <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=300&fit=crop" 
+                         src="{{ asset('images/location/galle2.png') }}" 
                          alt="Galle Fort Architecture" />
                 </div>
                 
                 <!-- Bottom Left -->
                 <div class="lg:col-span-1">
                     <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" 
+                         src="{{ asset('images/location/galle3.png') }}" 
                          alt="Galle Lighthouse" />
                 </div>
                 
                 <!-- Bottom Right -->
                 <div class="lg:col-span-1">
                     <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=300&fit=crop" 
+                         src="{{ asset('images/location/galle4.png') }}" 
                          alt="Galle Fort Streets" />
                 </div>
             </div>
