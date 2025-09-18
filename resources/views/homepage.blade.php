@@ -5,65 +5,53 @@
 
     <!-- Hero Section -->
 <!-- Hero Section -->
-<!-- Hero + Booking Combined Section -->
-<section id="home" 
-         class="relative bg-cover bg-center"
-         style="background-image: url('/images/home.png');">
+<section id="home" class="relative bg-cover bg-center min-h-screen" style="background-image: url('/images/home.png');">
 
   <!-- Dark overlay -->
   <div class="absolute inset-0 bg-black/40"></div>
 
   <!-- Content wrapper -->
-  <div class="relative z-10">
+  <div class="relative z-10 flex flex-col justify-between min-h-screen pl-16 pr-8">
 
-    <!-- Hero (full screen height) -->
-<div class="min-h-screen flex items-center justify-start pl-16">
-<div class="text-white px-8 py-8 w-full absolute top-7/12 -translate-y-1/2">
+    <!-- Hero text (vertically centered) -->
+<div class="text-white px-8 py-8 w-full flex flex-col justify-center flex-1" style="margin-top: 10vh;">
+  <h1 class="text-4xl md:text-7xl font-bold font-['Sorts_Mill_Goudy'] leading-tight w-full whitespace-nowrap">
+    Your Chill Spot in Paradise
+  </h1>
 
+  <p class="text-xl md:text-2xl font-light font-['NATS'] mb-8 leading-relaxed whitespace-pre-line">
+    Wake up in the heart of Mirissa, roll out of bed.  
+    and you're already living your best life.  
+    Everything you want is within a wave's reach.
+  </p>
 
-    <!-- Heading takes full width, will wrap naturally -->
-    <h1 class="text-6xl md:text-7xl font-bold font-['Sorts_Mill_Goudy']  leading-tight w-full">
-      Your Chill Spot in Paradise
-    </h1>
-
-    <!-- Paragraph -->
-    <p class="text-xl md:text-2xl font-light font-['NATS'] mb-8 leading-relaxed whitespace-pre-line pb-20">
-      Wake up in the heart of Mirissa, roll out of bed.  
-      and you're already living your best life.  
-      Everything you want is within a wave's reach.
-    </p>
-
-    <div class="flex flex-col items-start gap-4">
-      <div class="text-2xl font-bold font-['NATS'] tracking-widest">CHECK AVAILABILITY</div>
-      <div class="w-48 h-0.5 bg-white"></div>
-    </div>
-
+  <div class="flex flex-col items-start gap-4">
+    <div class="text-2xl font-bold font-['NATS'] tracking-widest">CHECK AVAILABILITY</div>
+    <div class="w-48 h-0.5 bg-white"></div>
   </div>
 </div>
 
-    <!-- Booking Form Section (still inside same background) -->
-   <div class="flex justify-center">
- <div class="bg-white/90 backdrop-blur-sm py-6 px-8 shadow-lg rounded-t-2xl inline-block">
-    <div class="flex items-center gap-6">
-      
-      <!-- Check In -->
-      <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
-        <div class="w-6 h-6">
-          <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
-        </div>
-        <div class="flex-1">
-          <label class="text-stone-400 text-xs font-['NATS']">Check In</label>
-          <input type="date" name="check_in" id="check_in" 
-                 class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none cursor-pointer"
-                 value="2025-09-14">
-        </div>
-      </div>
 
-          <!-- Divider -->
-          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+    <!-- Booking Form (bottom) -->
+    <div class="flex justify-center w-full ">
+      <div class=" bg-orange-50  py-6 px-8  rounded-t-2xl inline-block">
+        <div class="flex flex-wrap items-center gap-6">
+
+          <!-- Check In -->
+          <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
+            <div class="w-6 h-6">
+              <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
+            </div>
+            <div class="flex-1">
+              <label class="text-stone-400 text-xs font-['NATS']">Check In</label>
+              <input type="date" name="check_in" id="check_in" 
+                     class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none cursor-pointer"
+                     value="2025-09-14">
+            </div>
+          </div>
 
           <!-- Check Out -->
-          <div class="flex items-center gap-3 p-4rounded-lg min-w-[200px]">
+          <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
             <div class="w-6 h-6">
               <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
             </div>
@@ -75,11 +63,8 @@
             </div>
           </div>
 
-          <!-- Divider -->
-          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
-
           <!-- No of adults -->
-          <div class="flex items-center gap-3 p-4  rounded-lg min-w-[200px]">
+          <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
             <div class="w-6 h-6 bg-teal-500 rounded"></div>
             <div class="flex-1">
               <label class="text-stone-400 text-xs font-['NATS']">No of adults</label>
@@ -89,11 +74,8 @@
             </div>
           </div>
 
-          <!-- Divider -->
-          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
-
           <!-- No of children -->
-          <div class="flex items-center gap-3 p-4  rounded-lg min-w-[200px]">
+          <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
             <div class="w-6 h-6 bg-teal-500 rounded"></div>
             <div class="flex-1">
               <label class="text-stone-400 text-xs font-['NATS']">No of children</label>
@@ -104,11 +86,9 @@
           </div>
 
           <!-- Check Now Button -->
-<button class="bg-[#72B6B9] hover:bg-[#5A8E91] text-white px-8 py-4 rounded-lg font-bold font-['NATS'] transition-colors">
-  CHECK NOW
-</button>
-
-
+          <button class="bg-[#72B6B9] hover:bg-[#5A8E91] text-white px-8 py-4 rounded-lg font-bold font-['NATS'] transition-colors">
+            CHECK NOW
+          </button>
 
         </div>
       </div>
@@ -116,6 +96,9 @@
 
   </div>
 </section>
+
+
+
 
 
     <!-- Location Section -->
