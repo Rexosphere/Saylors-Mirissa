@@ -1,52 +1,53 @@
 <x-layout>
     <x-slot:title>Belleza - Your Chill Spot in Paradise</x-slot:title>
+<link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=NATS&display=swap" rel="stylesheet">
 
     <!-- Hero Section -->
+<!-- Hero Section -->
+<!-- Hero + Booking Combined Section -->
 <section id="home" 
-         class="relative min-h-screen flex items-center justify-start pl-15"
-         style="background-image: url('/images/home.png'); background-size: cover; background-position: center;">
+         class="relative bg-cover bg-center"
+         style="background-image: url('/images/home.png');">
 
   <!-- Dark overlay -->
-  <div class="absolute inset-0 bg-black/30"></div>
-    
-  <!-- Hero content (top-left) -->
-  <div class="relative z-10 text-white px-8 py-8 text-left max-w-full">
-    <h1 class="text-6xl md:text-7xl font-bold font-['STIX_Two_Text'] mb-6 leading-tight text-neutral-50">
+  <div class="absolute inset-0 bg-black/40"></div>
+
+  <!-- Content wrapper -->
+  <div class="relative z-10">
+
+    <!-- Hero (full screen height) -->
+<div class="min-h-screen flex items-center justify-start pl-16">
+<div class="text-white px-8 py-8 w-full absolute top-7/12 -translate-y-1/2">
+
+
+    <!-- Heading takes full width, will wrap naturally -->
+    <h1 class="text-6xl md:text-7xl font-bold font-['Sorts_Mill_Goudy']  leading-tight w-full">
       Your Chill Spot in Paradise
     </h1>
-    <p class="text-xl md:text-2xl font-light font-['NATS'] mb-8 leading-relaxed text-neutral-50 whitespace-pre-line">
-      Wake up in the heart of Mirissa, roll out of bed. 
-      and you're already living your best life. 
+
+    <!-- Paragraph -->
+    <p class="text-xl md:text-2xl font-light font-['NATS'] mb-8 leading-relaxed whitespace-pre-line pb-20">
+      Wake up in the heart of Mirissa, roll out of bed.  
+      and you're already living your best life.  
       Everything you want is within a wave's reach.
     </p>
 
     <div class="flex flex-col items-start gap-4">
-      <div class="text-lg font-normal font-['NATS'] tracking-widest text-neutral-50">
-        CHECK AVAILABILITY
-      </div>
-      <div class="w-48 h-0.5 bg-neutral-50"></div>
+      <div class="text-2xl font-bold font-['NATS'] tracking-widest">CHECK AVAILABILITY</div>
+      <div class="w-48 h-0.5 bg-white"></div>
     </div>
+
   </div>
+</div>
 
-  <!-- Wave divider -->
-  <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
-    <svg class="relative block w-full h-48" xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 1440 320" preserveAspectRatio="none">
-      <path fill="#ffffff" fill-opacity="1" 
-            d="M0,224 C480,0 960,448 1440,224 L1440,320 L0,320Z"></path>
-    </svg>
-  </div>
-</section>
-
-
-
-    <!-- Booking Form Section -->
-   <section class="bg-white py-8 shadow-lg">
-  <div class="max-w-screen-xl mx-auto px-4">
-    <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-
+    <!-- Booking Form Section (still inside same background) -->
+   <div class="flex justify-center">
+ <div class="bg-white/90 backdrop-blur-sm py-6 px-8 shadow-lg rounded-t-2xl inline-block">
+    <div class="flex items-center gap-6">
+      
       <!-- Check In -->
-      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
+      <div class="flex items-center gap-3 p-4 rounded-lg min-w-[200px]">
         <div class="w-6 h-6">
           <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
         </div>
@@ -58,56 +59,61 @@
         </div>
       </div>
 
-      <!-- Divider -->
-      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+          <!-- Divider -->
+          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
 
-      <!-- Check Out -->
-      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-        <div class="w-6 h-6">
-          <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
-        </div>
-        <div class="flex-1">
-          <label class="text-stone-400 text-xs font-['NATS']">Check Out</label>
-          <input type="date" name="check_out" id="check_out" 
-                 class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none cursor-pointer"
-                 value="2025-09-17">
+          <!-- Check Out -->
+          <div class="flex items-center gap-3 p-4rounded-lg min-w-[200px]">
+            <div class="w-6 h-6">
+              <img src="./icons/calander.png" alt="Calendar Icon" class="w-6 h-6" />
+            </div>
+            <div class="flex-1">
+              <label class="text-stone-400 text-xs font-['NATS']">Check Out</label>
+              <input type="date" name="check_out" id="check_out" 
+                     class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none cursor-pointer"
+                     value="2025-09-17">
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+
+          <!-- No of adults -->
+          <div class="flex items-center gap-3 p-4  rounded-lg min-w-[200px]">
+            <div class="w-6 h-6 bg-teal-500 rounded"></div>
+            <div class="flex-1">
+              <label class="text-stone-400 text-xs font-['NATS']">No of adults</label>
+              <input type="number" name="adults" id="adults" min="1" max="20" 
+                     class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none"
+                     value="3">
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
+
+          <!-- No of children -->
+          <div class="flex items-center gap-3 p-4  rounded-lg min-w-[200px]">
+            <div class="w-6 h-6 bg-teal-500 rounded"></div>
+            <div class="flex-1">
+              <label class="text-stone-400 text-xs font-['NATS']">No of children</label>
+              <input type="number" name="children" id="children" min="0" max="20" 
+                     class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none"
+                     value="1">
+            </div>
+          </div>
+
+          <!-- Check Now Button -->
+<button class="bg-[#72B6B9] hover:bg-[#5A8E91] text-white px-8 py-4 rounded-lg font-bold font-['NATS'] transition-colors">
+  CHECK NOW
+</button>
+
+
+
         </div>
       </div>
-
-      <!-- Divider -->
-      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
-
-      <!-- No of adults -->
-      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-        <div class="w-6 h-6 bg-teal-500 rounded"></div>
-        <div class="flex-1">
-          <label class="text-stone-400 text-xs font-['NATS']">No of adults</label>
-          <input type="number" name="adults" id="adults" min="1" max="20" 
-                 class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none"
-                 value="3">
-        </div>
-      </div>
-
-      <!-- Divider -->
-      <div class="w-px h-8 bg-stone-300 hidden md:block"></div>
-
-      <!-- No of children -->
-      <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg min-w-[200px]">
-        <div class="w-6 h-6 bg-teal-500 rounded"></div>
-        <div class="flex-1">
-          <label class="text-stone-400 text-xs font-['NATS']">No of children</label>
-          <input type="number" name="children" id="children" min="0" max="20" 
-                 class="w-full text-black text-base font-['NATS'] bg-transparent border-none outline-none"
-                 value="1">
-        </div>
-      </div>
-
-      <!-- Check Now Button -->
-      <button class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full font-bold font-['NATS'] transition-colors">
-        CHECK NOW
-      </button>
-
     </div>
+
   </div>
 </section>
 
