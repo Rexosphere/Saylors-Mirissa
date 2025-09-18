@@ -98,6 +98,67 @@
 </section>
 
 
+<section class="bg-[#FAF6F0] py-16">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <!-- Heading -->
+    <h2 class="text-3xl md:text-4xl font-serif  font-['Sorts_Mill_Goudy']  text-gray-800 mb-20">
+      Perfectly Positioned in Mirissa’s Heart
+    </h2>
+
+    <!-- Description -->
+    <p class="text-gray-600 text-base md:text-lg leading-relaxed font-['NATS'] ">
+      Nestled in the vibrant center of Mirissa, Sailors offers unparalleled access to the island's most coveted coastal experiences. Step from our refined accommodations onto golden sands, while the town's finest dining, cultural attractions, and adventure opportunities await within moments of your stay.
+    </p>
+  </div>
+</section>
+
+
+<section class="py-16 bg-[#FAF6F0] ">
+  <div class="max-w-screen-xl mx-auto px-4 text-center">
+    <!-- Section Title -->
+    <h2 class="text-sm font-medium text-gray-400 tracking-widest mb-6">
+      EXPLORE LOCATION
+    </h2>
+    <div class="w-30 h-0.5 bg-[#0e0903]  mx-auto mb-12"></div>
+
+    <!-- Locations Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Coconut Tree Hill -->
+      <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+        <img src="/images/location/Rectangle9.png" alt="Coconut Tree Hill" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <span class="text-white text-lg font-semibold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C10.343 2 9 3.343 9 5c0 1.656 1.343 3 3 3s3-1.344 3-3c0-1.657-1.343-3-3-3zM5 9v2h14V9H5zm-2 4v2h18v-2H3zm0 4v2h18v-2H3z"/></svg>
+            Coconut Tree Hill
+          </span>
+        </div>
+      </div>
+
+      <!-- Mirissa Beach -->
+      <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+        <img src="/images/location/Rectangle10.png" alt="Mirissa Beach" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black/50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4 text-center">
+          <h3 class="text-white text-xl font-semibold mb-2">Mirissa Beach</h3>
+          <p class="text-white text-sm">A hidden cove away from the crowds, perfect for swimming, sunbathing, and catching the most peaceful sunsets.</p>
+        </div>
+      </div>
+
+      <!-- Parrot Rock -->
+      <div class="relative group overflow-hidden rounded-lg cursor-pointer">
+        <img src="/images/location/Rectangle11.png" alt="Parrot Rock" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <span class="text-white text-lg font-semibold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C10.343 2 9 3.343 9 5c0 1.656 1.343 3 3 3s3-1.344 3-3c0-1.657-1.343-3-3-3zM5 9v2h14V9H5zm-2 4v2h18v-2H3zm0 4v2h18v-2H3z"/></svg>
+            Parrot Rock
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
 
