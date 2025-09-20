@@ -1,7 +1,5 @@
 <x-layout>
     <x-slot:title>Belleza - Your Chill Spot in Paradise</x-slot:title>
-<link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=NATS&display=swap" rel="stylesheet">
 
     <!-- Hero Section -->
 <!-- Hero Section -->
@@ -101,7 +99,7 @@
 <section class="bg-[#FAF6F0] py-16">
   <div class="max-w-4xl mx-auto px-4 text-center">
     <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-serif  font-['Sorts_Mill_Goudy']  text-gray-800 mb-20">
+    <h2 class="text-3xl md:text-4xl font-['Sorts_Mill_Goudy'] text-gray-800 mb-20">
       Perfectly Positioned in Mirissa’s Heart
     </h2>
 
@@ -159,7 +157,7 @@
   </div>
 </section>
 
-<section class="bg-[#FEFAF5] py-16">
+<section class="bg-[#FAF6F0] py-16">
   <div class="max-w-screen-xl mx-auto px-4">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
       
