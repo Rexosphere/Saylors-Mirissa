@@ -140,11 +140,11 @@ Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-clas
 </section>
 
    <!-- Historic Galle Section -->
-<section class="py-20 bg-[#FAF6F0]">
+<section class="py-10 pb-40 bg-[#FAF6F0]">
   <div class="max-w-screen-xl mx-auto px-8">
     
     <!-- Image Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
       
       <!-- Tall Image (Left Side) -->
       <div class="md:row-span-2">
@@ -162,14 +162,14 @@ Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-clas
 
       <!-- Bottom Right 1 -->
       <div>
-        <img class="w-full h-48 md:h-60 object-cover rounded-3xl shadow-lg" 
+        <img class="w-full h-80  object-cover rounded-3xl shadow-lg" 
              src="{{ asset('images/location/galle3.png') }}" 
              alt="Galle Lighthouse" />
       </div>
 
       <!-- Bottom Right 2 -->
       <div>
-        <img class="w-full h-48 md:h-60 object-cover rounded-3xl shadow-lg" 
+        <img class="w-full h-80 object-cover rounded-3xl shadow-lg" 
              src="{{ asset('images/location/galle4.png') }}" 
              alt="Galle Fort Streets" />
       </div>
@@ -179,7 +179,7 @@ Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-clas
 
 
     <!-- Nearby Attractions Section -->
-    <section class="py-20 bg-orange-50">
+    {{-- <section class="py-20 bg-orange-50">
         <div class="max-w-screen-xl mx-auto px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl lg:text-5xl font-bold font-['STIX_Two_Text'] text-stone-700 mb-6">
@@ -265,5 +265,5 @@ Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-clas
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </x-layout>
