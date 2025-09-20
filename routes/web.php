@@ -11,6 +11,9 @@ Route::get('/location', function () {
     return view('location');
 })->name('location');
 
+Route::get('/accommodation', function () {
+    return view('accommodation');
+})->name('accommodation');
 
 
 
