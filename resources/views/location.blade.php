@@ -139,50 +139,44 @@ Journey to the UNESCO World Heritage city of Galle, where 400 years of colonial 
 Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-class dining within the historic fort walls.</div>
 </section>
 
-    <!-- Historic Galle Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-screen-xl mx-auto px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl lg:text-5xl font-bold font-['STIX_Two_Text'] text-stone-700 mb-6">
-                    Historic Galle
-                </h2>
-                <p class="text-xl text-stone-700 font-['NATS'] leading-relaxed max-w-4xl mx-auto">
-                    Journey to the UNESCO World Heritage city of Galle, where 400 years of colonial history meet contemporary Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-class dining within the historic fort walls.
-                </p>
-            </div>
-            
-            <!-- Image Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Large Image -->
-                <div class="md:col-span-1 lg:col-span-2 md:row-span-2">
-                    <img class="w-100 h-100 min-h-60 object-cover rounded-3xl shadow-lg" 
-                         src="{{ asset('images/location/galle1.png') }}" 
-                         alt="Galle Fort Aerial View" />
-                </div>
-                
-                <!-- Top Right -->
-                <div class="lg:col-span-1">
-                    <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="{{ asset('images/location/galle2.png') }}" 
-                         alt="Galle Fort Architecture" />
-                </div>
-                
-                <!-- Bottom Left -->
-                <div class="lg:col-span-1">
-                    <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="{{ asset('images/location/galle3.png') }}" 
-                         alt="Galle Lighthouse" />
-                </div>
-                
-                <!-- Bottom Right -->
-                <div class="lg:col-span-1">
-                    <img class="w-full h-48 lg:h-60 object-cover rounded-3xl shadow-lg" 
-                         src="{{ asset('images/location/galle4.png') }}" 
-                         alt="Galle Fort Streets" />
-                </div>
-            </div>
-        </div>
-    </section>
+   <!-- Historic Galle Section -->
+<section class="py-20 bg-[#FAF6F0]">
+  <div class="max-w-screen-xl mx-auto px-8">
+    
+    <!-- Image Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      
+      <!-- Tall Image (Left Side) -->
+      <div class="md:row-span-2">
+        <img class="w-full h-full object-cover rounded-3xl shadow-lg" 
+             src="{{ asset('images/location/galle1.png') }}" 
+             alt="Galle Fort Aerial View" />
+      </div>
+
+      <!-- Top Right (Wide) -->
+      <div class="lg:col-span-2">
+        <img class="w-full h-60 md:h-72 object-cover rounded-3xl shadow-lg" 
+             src="{{ asset('images/location/galle2.png') }}" 
+             alt="Galle Fort Architecture" />
+      </div>
+
+      <!-- Bottom Right 1 -->
+      <div>
+        <img class="w-full h-48 md:h-60 object-cover rounded-3xl shadow-lg" 
+             src="{{ asset('images/location/galle3.png') }}" 
+             alt="Galle Lighthouse" />
+      </div>
+
+      <!-- Bottom Right 2 -->
+      <div>
+        <img class="w-full h-48 md:h-60 object-cover rounded-3xl shadow-lg" 
+             src="{{ asset('images/location/galle4.png') }}" 
+             alt="Galle Fort Streets" />
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Nearby Attractions Section -->
     <section class="py-20 bg-orange-50">
