@@ -2,180 +2,170 @@
     <x-slot:title>Location - Saylor's Mirissa</x-slot:title>
 
     <!-- Hero Section -->
-<section class="relative h-[50vh] bg-cover bg-center bg-fixed" 
-         style="background-image: url('{{ asset('images/home.png') }}');">
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/40"></div>
+    <section class="relative h-[50vh] bg-cover bg-center bg-fixed"
+        style="background-image: url('{{ asset('images/home.png') }}');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/40"></div>
 
-    <!-- Content at bottom-left -->
-    <div class="absolute bottom-4 left-8 md:bottom-8 md:left-20 z-10 text-neutral-50 max-w-4xl ">
-        <h1 class="text-5xl  md:text-6xl font-['STIX_Two_Text'] leading-tight">
-            Location
-        </h1>
-    </div>
-</section>
-<section class="bg-[#FAF6F0] py-16">
-  <div class="max-w-4xl mx-auto px-4 text-center">
-    <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
-Right Where You Want to Be!
-    </h2>
+        <!-- Content at bottom-left -->
+        <div class="absolute bottom-4 left-8 md:bottom-8 md:left-20 z-10 text-neutral-50 max-w-4xl ">
+            <h1 class="text-5xl  md:text-6xl font-['STIX_Two_Text'] leading-tight">
+                Location
+            </h1>
+        </div>
+    </section>
+    <section class="bg-[#FAF6F0] py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
+                Right Where You Want to Be!
+            </h2>
 
-    <!-- Description -->
-    <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
-    We're literally in the middle of everything cool in Mirissa. Beach vibes, amazing sunsets, great food, and all the fun stuff - you can walk to it all from Sailors. No stress, no long rides, just pure convenience.
-    </p>
-  </div>
-</section>
-
-
+            <!-- Description -->
+            <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
+                We're literally in the middle of everything cool in Mirissa. Beach vibes, amazing sunsets, great food,
+                and all the fun stuff - you can walk to it all from Sailors. No stress, no long rides, just pure
+                convenience.
+            </p>
+        </div>
+    </section>
     <!-- Map Section -->
-<section class="py-20 bg-[#FAF6F0]">
-    <div class="max-w-screen-2xl mx-auto  border-2">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <!-- Map -->
-            <div class="order-2 lg:order-1">
-                <div class="bg-white shadow-xl overflow-hidden h-[60vh]">
-                    <img class="w-full h-full object-cover" 
-                         src="{{ asset('images/location/gallemap.png') }}" 
-                         alt="Mirissa Location Map" />
+    <section class="py-20 bg-[#FAF6F0]">
+        <div class="max-w-screen-2xl mx-auto  border-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- Map -->
+                <div class="order-2 lg:order-1">
+                    <div class="bg-white shadow-xl overflow-hidden h-[60vh]">
+                        <img class="w-full h-full object-cover" src="{{ asset('images/location/gallemap.png') }}"
+                            alt="Mirissa Location Map" />
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="order-1 lg:order-2 space-y-8 ">
+                    <h2 class="text-4xl lg:text-5xl font-['STIX_Two_Text'] text-stone-700 leading-tight">
+                        In the Heart of It All
+                    </h2>
+                    <p class="text-lg lg:text-xl text-stone-700 leading-relaxed mr-5">
+                        Sailors Mirissa sits in the heart of town where everything cool happens - just a 2-minute walk
+                        to the beach, practically next door to Coconut Tree Hill, surrounded by great restaurants, surf
+                        spots, and the whale watching harbor. Also right on the main road for easy tuk-tuk rides to
+                        Galle and other adventures. </p>
+                    <div class="pt-4">
+                        <a href="#" class="text-stone-700 tracking-wide text-base uppercase">
+                            GET DIRECTIONS
+                        </a>
+                        <div class="w-32 h-px bg-stone-300 mt-2"></div>
+                    </div>
+
+
+
+
+
+
                 </div>
             </div>
-            
-            <!-- Content -->
-            <div class="order-1 lg:order-2 space-y-8 ">
-                <h2 class="text-4xl lg:text-5xl font-['STIX_Two_Text'] text-stone-700 leading-tight">
-                    In the Heart of It All
-                </h2>
-                <p class="text-lg lg:text-xl text-stone-700 leading-relaxed mr-5">
-                    Sailors Mirissa sits in the heart of town where everything cool happens - just a 2-minute walk to the beach, practically next door to Coconut Tree Hill, surrounded by great restaurants, surf spots, and the whale watching harbor. Also right on the main road for easy tuk-tuk rides to Galle and other adventures.   </p>
-              <div class="pt-4">
-    <a href="#" class="text-stone-700 tracking-wide text-base uppercase">
-        GET DIRECTIONS
-    </a>
-    <div class="w-32 h-px bg-stone-300 mt-2"></div>
-</div>
+        </div>
+    </section>
+    <section class="bg-[#FAF6F0] py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
+                Transportation and Access
+            </h2>
 
+            <!-- Description -->
+            <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
+                Sailors Mirissa's strategic location provides seamless access to southern Sri Lanka's highlights while
+                ensuring convenient transportation options for arrival and exploration. </p>
+        </div>
+    </section>
 
+    <section class="bg-[#FAF6F0] py-16">
+        <div class="max-w-screen-xl mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
 
+                <!-- Item 1 -->
+                <div class="flex flex-col items-center">
+                    <img src="images/icons/image16.png" alt="Airport Icon" class="h-12 w-12 mb-2 object-contain">
+                    <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+                    <p class="text-sm text-gray-700">2.5 hours from <br> the airport</p>
+                </div>
 
+                <!-- Item 2 -->
+                <div class="flex flex-col items-center">
+                    <img src="images/icons/image17.png" alt="highwayIcon" class="h-12 w-12 mb-2 object-contain">
+                    <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+                    <p class="text-sm text-gray-700">Minutes away from the <br> Southern Expressway</p>
+                </div>
 
+                <!-- Item 3 -->
+                <div class="flex flex-col items-center">
+                    <img src="images/icons/image18.png" alt="mobile Icon" class="h-12 w-12 mb-2 object-contain">
+                    <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+                    <p class="text-sm text-gray-700">24/7 available <br> Tuk-tuks and taxis</p>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="flex flex-col items-center">
+                    <img src="images/icons/image19.png" alt="walk Icon" class="h-12 w-12 mb-2 object-contain">
+                    <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
+                    <p class="text-sm text-gray-700">Walk to most <br> Mirissa highlights</p>
+                </div>
 
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <section class="bg-[#FAF6F0] py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
+                Historic Galle
+            </h2>
 
+            <!-- Description -->
+            <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
+                Journey to the UNESCO World Heritage city of Galle, where 400 years of colonial history meet
+                contemporary
+                Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-class dining within the
+                historic fort walls.
+        </div>
+    </section>
 
+    <!-- Historic Galle Section -->
+    <section class="py-10 pb-40 bg-[#FAF6F0]">
+        <div class="max-w-screen-xl mx-auto px-8">
 
+            <!-- Image Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
+                <!-- Tall Image (Left Side) -->
+                <div class="md:row-span-2">
+                    <img class="w-full h-full object-cover rounded-3xl shadow-lg"
+                        src="{{ asset('images/location/galle1.png') }}" alt="Galle Fort Aerial View" />
+                </div>
 
+                <!-- Top Right (Wide) -->
+                <div class="lg:col-span-2">
+                    <img class="w-full h-60 md:h-72 object-cover rounded-3xl shadow-lg"
+                        src="{{ asset('images/location/galle2.png') }}" alt="Galle Fort Architecture" />
+                </div>
 
+                <!-- Bottom Right 1 -->
+                <div>
+                    <img class="w-full h-80  object-cover rounded-3xl shadow-lg"
+                        src="{{ asset('images/location/galle3.png') }}" alt="Galle Lighthouse" />
+                </div>
 
-
-
-<section class="bg-[#FAF6F0] py-16">
-  <div class="max-w-4xl mx-auto px-4 text-center">
-    <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
-Transportation and Access
-    </h2>
-
-    <!-- Description -->
-    <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
- Sailors Mirissa's strategic location provides seamless access to southern Sri Lanka's highlights while ensuring convenient transportation options for arrival and exploration. </p>
-  </div>
-</section>
-
-
-
-<section class="bg-[#FAF6F0] py-16">
-  <div class="max-w-screen-xl mx-auto px-4">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
-      
-      <!-- Item 1 -->
-      <div class="flex flex-col items-center">
-        <img src="images/icons/image16.png" alt="Airport Icon" class="h-12 w-12 mb-2 object-contain">
-        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
-        <p class="text-sm text-gray-700">2.5 hours from <br> the airport</p>
-      </div>
-
-      <!-- Item 2 -->
-      <div class="flex flex-col items-center">
-      <img src="images/icons/image17.png" alt="highwayIcon" class="h-12 w-12 mb-2 object-contain">
-        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
-        <p class="text-sm text-gray-700">Minutes away from the <br> Southern Expressway</p>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="flex flex-col items-center">
-         <img src="images/icons/image18.png" alt="mobile Icon" class="h-12 w-12 mb-2 object-contain">
-        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
-        <p class="text-sm text-gray-700">24/7 available <br> Tuk-tuks and taxis</p>
-      </div>
-
-      <!-- Item 4 -->
-      <div class="flex flex-col items-center">
-        <img src="images/icons/image19.png" alt="walk Icon" class="h-12 w-12 mb-2 object-contain">
-        <div class="w-8 h-0.5 bg-gray-800 mb-2"></div>
-        <p class="text-sm text-gray-700">Walk to most <br> Mirissa highlights</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="bg-[#FAF6F0] py-16">
-  <div class="max-w-4xl mx-auto px-4 text-center">
-    <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
-Historic Galle
-    </h2>
-
-    <!-- Description -->
-    <p class="text-gray-600 text-base md:text-lg leading-relaxed ">
-Journey to the UNESCO World Heritage city of Galle, where 400 years of colonial history meet contemporary
-Sri Lankan culture. Explore ancient ramparts, boutique galleries, and world-class dining within the historic fort walls.</div>
-</section>
-
-   <!-- Historic Galle Section -->
-<section class="py-10 pb-40 bg-[#FAF6F0]">
-  <div class="max-w-screen-xl mx-auto px-8">
-    
-    <!-- Image Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-      
-      <!-- Tall Image (Left Side) -->
-      <div class="md:row-span-2">
-        <img class="w-full h-full object-cover rounded-3xl shadow-lg" 
-             src="{{ asset('images/location/galle1.png') }}" 
-             alt="Galle Fort Aerial View" />
-      </div>
-
-      <!-- Top Right (Wide) -->
-      <div class="lg:col-span-2">
-        <img class="w-full h-60 md:h-72 object-cover rounded-3xl shadow-lg" 
-             src="{{ asset('images/location/galle2.png') }}" 
-             alt="Galle Fort Architecture" />
-      </div>
-
-      <!-- Bottom Right 1 -->
-      <div>
-        <img class="w-full h-80  object-cover rounded-3xl shadow-lg" 
-             src="{{ asset('images/location/galle3.png') }}" 
-             alt="Galle Lighthouse" />
-      </div>
-
-      <!-- Bottom Right 2 -->
-      <div>
-        <img class="w-full h-80 object-cover rounded-3xl shadow-lg" 
-             src="{{ asset('images/location/galle4.png') }}" 
-             alt="Galle Fort Streets" />
-      </div>
-    </div>
-  </div>
-</section>
+                <!-- Bottom Right 2 -->
+                <div>
+                    <img class="w-full h-80 object-cover rounded-3xl shadow-lg"
+                        src="{{ asset('images/location/galle4.png') }}" alt="Galle Fort Streets" />
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Nearby Attractions Section -->
