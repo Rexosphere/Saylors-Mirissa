@@ -2,8 +2,8 @@
     <x-slot:title>Accommodation- Saylor's Mirissa</x-slot:title>
 
     <!-- Hero Section -->
-<section class="relative h-[50vh]" 
-         style="background-image: url('{{ asset('images/home.png') }}'); background-size: cover; background-position: bottom;">
+<section class="relative h-[50vh] bg-cover bg-center bg-fixed" 
+         style="background-image: url('{{ asset('images/home.png') }}');">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-black/40"></div>
 
@@ -23,7 +23,6 @@
 
 <!-- Rooms Section -->
 <section x-data="{ tab: 'single' }" class=" ">
-        <div class="-mx-8 px-8">
         <div class="flex justify-center gap-80 border-b border-stone-300 mb-12 bg-[#EEE0CD] py-10">
             <button @click="tab = 'single'"
                             :class="tab === 'single' ? 'text-stone-900 font-bold border-b-2 border-stone-900 pb-2' : 'text-stone-500 pb-2'"
