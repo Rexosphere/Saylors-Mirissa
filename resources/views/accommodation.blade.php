@@ -88,7 +88,7 @@
               Sailors Mirissa sits in the heart of town where everything cool happens – just a 2-minute walk to the beach, practically next door to Coconut Tree Hill, surrounded by great restaurants, surf spots, and the whale watching harbor.
             </p>
             <div class="mt-6">
-              <a href="#" class="uppercase text-stone-700 font-['NATS']">Book Now</a>
+              <a href="#" class="uppercase text-stone-700">Book Now</a>
               <div class="w-24 h-px bg-stone-300 mt-1"></div>
             </div>
           </div>
@@ -106,7 +106,7 @@
               Perfect for couples or friends traveling together, our Double Rooms combine comfort with convenience, just steps from Mirissa beach.
             </p>
             <div class="mt-6">
-              <a href="#" class="uppercase text-stone-700 font-['NATS']">Book Now</a>
+              <a href="#" class="uppercase text-stone-700">Book Now</a>
               <div class="w-24 h-px bg-stone-300 mt-1"></div>
             </div>
           </div>
@@ -124,7 +124,7 @@
               Ideal for small groups, our Triple Rooms offer extra space and comfort, with all modern amenities close to the beach and local spots.
             </p>
             <div class="mt-6">
-              <a href="#" class="uppercase text-stone-700 font-['NATS']">Book Now</a>
+              <a href="#" class="uppercase text-stone-700">Book Now</a>
               <div class="w-24 h-px bg-stone-300 mt-1"></div>
             </div>
           </div>
@@ -142,7 +142,7 @@
               Spacious and welcoming, our Family Rooms are designed to keep everyone comfortable, with quick access to Mirissa’s top attractions.
             </p>
             <div class="mt-6">
-              <a href="#" class="uppercase text-stone-700 font-['NATS']">Book Now</a>
+              <a href="#" class="uppercase text-stone-700">Book Now</a>
               <div class="w-24 h-px bg-stone-300 mt-1"></div>
             </div>
           </div>
@@ -165,7 +165,7 @@
 
 <section class="bg-[#FAF6F0] py-16">
   <div class="max-w-screen-xl mx-auto px-4 text-center">
-    <h2 class="text-3xl md:text-4xl font-['Sorts_Mill_Goudy'] text-gray-800 mb-10">
+    <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
       Gallery
     </h2>
 
