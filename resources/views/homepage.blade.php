@@ -194,62 +194,47 @@
 </section>
 
 
-
-    <!-- Location Section -->
-    <section id="location" class="py-20 bg-orange-50">
-        <div class="max-w-screen-2xl mx-auto px-8">
-            <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
-                <div class="flex flex-col lg:flex-row">
-                    <div class="lg:w-1/2">
-                        <img class="w-full h-96 lg:h-full object-cover" 
-                             src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop" 
-                             alt="Saylor's Mirissa Hotel" />
-                    </div>
-                    <div class="lg:w-1/2 p-12 lg:p-16 flex flex-col justify-center">
-                        <h2 class="text-4xl lg:text-5xl font-bold font-['STIX_Two_Text'] text-stone-700 mb-8 leading-tight">
-                            Perfectly Positioned in the Heart of Mirissa
-                        </h2>
-                        <p class="text-xl text-stone-700 leading-relaxed mb-8">
-                            Situated in the vibrant center of Mirissa, Sailors offers unparalleled access to the island's most coveted coastal experiences. Step from our refined accommodations onto golden sands, while the town's finest dining, cultural attractions, and adventure opportunities await within moments of your stay.
-                        </p>
-                        <a href="/location" class="group">
-                            <div class="flex flex-col gap-3">
-                                <div class="text-2xl font-normal text-stone-400 tracking-wider group-hover:text-stone-700 transition-colors">EXPLORE LOCATION</div>
-                                <div class="w-64 h-0.5 bg-stone-400 group-hover:bg-stone-700 transition-colors"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <!-- room section -->
+  <section id="rooms" class="py-20 bg-[#FAF6F0]">
+  <div class="flex justify-center w-full">
+    <div class="inline-block px-8 max-w-7xl w-full">
+      <div class="flex flex-col lg:flex-row items-stretch">
+        
+        <!-- Left Image -->
+        <div class="lg:w-1/2 w-full">
+          <img 
+            class="w-full h-[450px] object-cover rounded-l-xl shadow-md" 
+            src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop&crop=center" 
+            alt="Coastal Living Room at Sailors Mirissa" />
         </div>
-    </section>
+        
+        <!-- Right Content -->
+        <div class="lg:w-1/2 w-full relative flex items-center">
 
-    <!-- Explore Section -->
-    <section id="experiences" class="py-20 bg-white">
-        <div class="max-w-screen-2xl mx-auto px-8">
-            <div class="flex flex-col lg:flex-row items-center gap-16">
-                <div class="lg:w-1/2 space-y-8">
-                    <h2 class="text-5xl lg:text-6xl font-bold font-['STIX_Two_Text'] text-stone-700 leading-tight">
-                        Explore Mirissa
-                    </h2>
-                    <p class="text-xl text-stone-700 leading-relaxed">
-                        Step outside and the best of Mirissa is right here.<br/>
-                        From golden beaches to whale watching,<br/>
-                        our hotel puts you in the center of it all
-                    </p>
-                    <div class="flex flex-col gap-3">
-                        <div class="text-2xl font-normal text-stone-400 tracking-wider">DISCOVER</div>
-                        <div class="w-48 h-0.5 bg-stone-400"></div>
-                    </div>
-                </div>
-                <div class="lg:w-1/2">
-                    <img class="w-full h-96 lg:h-[500px] rounded-3xl object-cover shadow-xl" 
-                         src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=837&h=733&fit=crop" 
-                         alt="Mirissa beach experience" />
-                </div>
+          
+
+          <!-- White Content Card -->
+          <div class="relative bg-transparent rounded-r-xl shadow-md p-10 lg:p-14 w-full border border-black">
+            <h2 class="text-3xl lg:text-4xl font-medium font-['Sorts_Mill_Goudy'] mb-6 leading-tight text-black">
+              Coastal Living in Comfort
+            </h2>
+            <p class="text-base lg:text-lg font-['NATS'] leading-relaxed mb-10 text-black">
+              Unwind in cozy, stylish rooms designed as your perfect base in Mirissa. Whether you're here to surf, explore, or simply relax, our spaces offer the comfort you need after a day by the sea.
+            </p>
+            <div>
+              <div class="text-sm lg:text-base font-normal font-['NATS'] text-black tracking-[0.2em]">
+          EXPLORE OUR ROOMS
+              </div>
+              <div class="w-40 h-px bg-black mt-2"></div>
             </div>
+          </div>
         </div>
-    </section>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Features Section -->
     {{-- <section class="py-16 bg-orange-50">
