@@ -3,7 +3,7 @@
 
     <!-- Hero Section -->
 <!-- Hero Section -->
-<section id="home" class="relative bg-cover bg-center min-h-screen" style="background-image: url('/images/home.png');">
+<section id="home" class="relative bg-cover bg-center min-h-screen bg-fixed" style="background-image: url('/images/home.png');">
 
   <!-- Dark overlay -->
   <div class="absolute inset-0 bg-black/40"></div>

@@ -2,8 +2,8 @@
     <x-slot:title>Location - Saylor's Mirissa</x-slot:title>
 
     <!-- Hero Section -->
-<section class="relative h-[50vh]" 
-         style="background-image: url('{{ asset('images/home.png') }}'); background-size: cover; background-position: bottom;">
+<section class="relative h-[50vh] bg-cover bg-center bg-fixed" 
+         style="background-image: url('{{ asset('images/home.png') }}');">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-black/40"></div>
 
