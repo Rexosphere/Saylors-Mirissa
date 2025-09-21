@@ -13,7 +13,7 @@
     <nav class="flex justify-between items-center w-full pl-8 pr-0">
         <!-- Left Side: Saylor's Mirissa -->
         <div class="text-2xl font-normal font-['Belleza'] text-white leading-10 drop-shadow-sm">
-            Saylor's Mirissa
+            Sailor's Mirissa
         </div>
 
         <!-- Center: Navigation Menu Items -->
