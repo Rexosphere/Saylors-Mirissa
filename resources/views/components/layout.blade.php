@@ -11,7 +11,7 @@
     <!-- Header -->
 <header class="fixed top-0 left-0 w-full h-20 bg-black/30 backdrop-blur-md border-b border-white/20 flex justify-between items-center shadow-md z-50">
 
-    <nav class="flex justify-between items-center w-full px-8">
+    <nav class="flex justify-between items-center w-full pl-8 pr-0">
         <!-- Left Side: Saylor's Mirissa -->
         <div class="text-2xl font-normal font-['Belleza'] text-white leading-10 drop-shadow-sm">
             Saylor's Mirissa
@@ -26,10 +26,12 @@
             <x-mary-menu-item title="ABOUT" link="#about" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
         </div>
 
-        <!-- Right Side: Check Availability and Button -->
-       <a href="#availability" class="bg-[#72B6B9] hover:bg-[#5A8E91] text-white px-8 py-4 rounded-lg font-bold font-['NATS'] transition-colors inline-block text-center">
-  Check Availability
-</a>
+        <!-- Right Side: Check Availability Button -->
+        <div class="flex-shrink-0">
+            <a href="#availability" class="bg-[#72B6B9] hover:bg-[#5A8E91] text-white px-8 h-20 flex items-center  font-bold font-['NATS'] transition-colors text-center">
+            Check Availability
+            </a>
+        </div>
 
     </nav>
 </header>
