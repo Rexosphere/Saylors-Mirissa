@@ -20,20 +20,20 @@
         <div class="grid grid-cols-3 gap-6">
           
           <!-- Scuba Diving -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Scuba Diving
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Scuba Diving
               </h3>
@@ -44,20 +44,20 @@
           </div>
 
           <!-- Whale Watching -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Whale Watching
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Whale Watching
               </h3>
@@ -68,20 +68,20 @@
           </div>
 
           <!-- Surfing -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Surfing
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Surfing
               </h3>
@@ -92,20 +92,20 @@
           </div>
 
           <!-- Parrot Rock -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Parrot Rock
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Parrot Rock
               </h3>
@@ -116,20 +116,20 @@
           </div>
 
           <!-- Coconut Tree Hill -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Coconut Tree Hill
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Coconut Tree Hill
               </h3>
@@ -140,20 +140,20 @@
           </div>
 
           <!-- Snake Island -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Snake Island
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Snake Island
               </h3>
@@ -164,20 +164,20 @@
           </div>
 
           <!-- Sunset Point -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Sunset Point
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Sunset Point
               </h3>
@@ -188,20 +188,20 @@
           </div>
 
           <!-- Beach Hopping -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Beach Hopping
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Beach Hopping
               </h3>
@@ -212,20 +212,20 @@
           </div>
 
           <!-- Fishing -->
-          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          <div class="relative rounded-xl overflow-hidden h-96 group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-300 group-hover:scale-110" 
                  style="background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900 opacity-80"></div>
             
             <!-- Default state: title at bottom -->
-            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end group-hover:opacity-0 transition-opacity duration-300">
+            <div class="absolute bottom-0 left-0 right-0 px-8 py-6 flex justify-center items-end opacity-100 group-hover:opacity-0 transition-opacity duration-500">
               <h3 class="text-white text-2xl font-medium text-center" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Fishing
               </h3>
             </div>
             
             <!-- Hover state: title centered with description -->
-            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 transition-delay-150">
               <h3 class="text-white text-3xl font-medium mb-3" style="font-family: 'OFL Sorts Mill Goudy TT', serif;">
                 Fishing
               </h3>
