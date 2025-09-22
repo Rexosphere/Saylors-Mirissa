@@ -15,6 +15,10 @@ Route::get('/accommodation', function () {
     return view('accommodation');
 })->name('accommodation');
 
+Route::get('/experiences', function () {
+    return view('experiences');
+})->name('experiences');
+
 
 
 Route::view('dashboard', 'dashboard')

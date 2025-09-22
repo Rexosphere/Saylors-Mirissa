@@ -35,7 +35,7 @@
           <li><a href="#" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">Home</a></li>
           <li><a href="#" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">Accommodation</a></li>
           <li><a href="/location" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">Location</a></li>
-          <li><a href="#" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">Experiences</a></li>
+          <li><a href="/experiences" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">Experiences</a></li>
           <li><a href="#" class="text-stone-400 text-sm font-normal font-['Noto_Sans'] hover:text-neutral-50 transition-colors">About</a></li>
         </ul>
       </div>
