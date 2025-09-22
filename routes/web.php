@@ -19,7 +19,15 @@ Route::get('/experiences', function () {
     return view('experiences');
 })->name('experiences');
 
-
+Route::get('/experience/{slug}', function (string $slug) {
+    $experiences = config('experiences');
+    
+    if (!isset($experiences[$slug])) {
+        abort(404);
+    }
+    
+    return view('experience', ['item' => $experiences[$slug]]);
+})->name('experience');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
