@@ -1,5 +1,5 @@
 <x-layout>
-    <x-slot:title>Belleza - Your Chill Spot in Paradise</x-slot:title>
+    <x-slot:title>Sailors Mirissa- Your Chill Spot in Paradise</x-slot:title>
 
     <!-- Hero Section -->
     <!-- Hero Section -->
