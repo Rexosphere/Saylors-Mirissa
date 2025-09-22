@@ -21,7 +21,7 @@
             <x-mary-menu-item title="HOME" link="/" class="text-stone-100 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-900 transition-colors" />
             <x-mary-menu-item title="ACCOMMODATION" link="/accommodation" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
             <x-mary-menu-item title="LOCATION" link="/location" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
-            <x-mary-menu-item title="EXPERIENCES" link="#experiences" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
+            <x-mary-menu-item title="EXPERIENCES" link="/experiences" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
             <x-mary-menu-item title="ABOUT" link="#about" class="text-stone-200 text-sm font-normal font-['Noto_Sans'] leading-snug hover:text-stone-500 transition-colors" />
         </div>
 
