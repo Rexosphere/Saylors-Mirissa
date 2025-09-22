@@ -3,7 +3,7 @@
 
     <!-- Hero Section -->
     <!-- Hero Section -->
-    <section id="home" class="relative bg-cover bg-center min-h-screen bg-fixed"
+    <section id="featured_header" class="relative bg-cover bg-center min-h-screen bg-fixed"
         style="background-image: url('/images/home.png');">
 
         <!-- Dark overlay -->
