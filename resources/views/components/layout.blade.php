@@ -19,9 +19,9 @@
         <!-- Center: Navigation Menu Items -->
         <div class="menu menu-horizontal hidden md:flex justify-center items-center gap-10 mx-auto">
             <x-mary-menu-item title="HOME" link="{{ route('home') }}" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
-            <x-mary-menu-item title="ACCOMMODATION" link="{{ route('accommodation') }}" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
-            <x-mary-menu-item title="LOCATION" link="{{ route('location') }}" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
-            <x-mary-menu-item title="EXPERIENCES" link="{{ route('experiences') }}" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
+            <x-mary-menu-item title="ACCOMMODATION" link="#Accomodation" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
+            <x-mary-menu-item title="LOCATION" link="#location" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
+            <x-mary-menu-item title="EXPERIENCES" link="#Experiences" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
             <x-mary-menu-item title="ABOUT" link="#about" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
         </div>
 
