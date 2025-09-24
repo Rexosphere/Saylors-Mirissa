@@ -22,7 +22,7 @@
             <x-mary-menu-item title="ACCOMMODATION" link="#Accomodation" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
             <x-mary-menu-item title="LOCATION" link="#location" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
             <x-mary-menu-item title="EXPERIENCES" link="#Experiences" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
-            <x-mary-menu-item title="ABOUT" link="#about" class="header-nav-item text-gray-700 text-sm font-normal hover:text-gray-900 transition-colors" />
+            
         </div>
 
         <!-- Right Side: Check Availability Button -->
