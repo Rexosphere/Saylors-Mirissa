@@ -1,4 +1,4 @@
-<footer class="bg-cover bg-center bg-no-repeat text-white" style="background-image: url('{{ asset('images/footer.png') }}')">
+<footer class="bg-cover bg-center bg-no-repeat text-white" style="background-image: url('{{ asset('images/footer.avif') }}')">
   <div class="max-w-screen-2xl mx-auto px-8 py-16">
     
     <!-- Top Section: 3 columns desktop, 1 column mobile -->

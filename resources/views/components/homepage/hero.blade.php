@@ -3,7 +3,7 @@
     <!-- Three.js Slider Container -->
     <div id="content" class="absolute inset-0 cursor-pointer">
         <div id="slider" class="w-full h-full"
-             data-images='["/images/home.png","/images/home2.png"]'>
+             data-images='["/images/hero.avif","/images/hero2.avif"]'>
         </div>
     </div>
 

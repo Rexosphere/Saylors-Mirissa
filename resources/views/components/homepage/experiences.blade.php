@@ -1,4 +1,4 @@
-<section class="bg-[#FAF6F0] py-26" id= "Experiences">
+<section id="Experiences">
     <div class="max-w-screen-2xl mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-display text-gray-800 mb-10">
             Experiences

@@ -37,19 +37,19 @@
             <!-- Image -->
             <div>
                 <template x-if="tab === 'single'">
-                    <img src="{{ asset('/images/rooms/single.png') }}" alt="Single Room"
+                    <img src="{{ asset('/images/rooms/single.avif') }}" alt="Single Room"
                         class="w-full h-[400px] object-cover rounded-3xl shadow-lg">
                 </template>
                 <template x-if="tab === 'double'">
-                    <img src="{{ asset('images/rooms/double.jpg') }}" alt="Double Room"
+                    <img src="{{ asset('images/rooms/double.avif') }}" alt="Double Room"
                         class="w-full h-[400px] object-cover rounded-3xl shadow-lg">
                 </template>
                 <template x-if="tab === 'triple'">
-                    <img src="{{ asset('images/rooms/single.png') }}" alt="Triple Room"
+                    <img src="{{ asset('images/rooms/single.avif') }}" alt="Triple Room"
                         class="w-full h-[400px] object-cover rounded-3xl shadow-lg">
                 </template>
                 <template x-if="tab === 'family'">
-                    <img src="{{ asset('images/rooms/family.jpg') }}" alt="Family Room"
+                    <img src="{{ asset('images/rooms/family.avif') }}" alt="Family Room"
                         class="w-full h-[400px] object-cover rounded-3xl shadow-lg">
                 </template>
             </div>

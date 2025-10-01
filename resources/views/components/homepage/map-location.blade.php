@@ -5,8 +5,7 @@
             <!-- Map -->
             <div class="order-2 lg:order-1">
                 <div class="bg-white shadow-xl overflow-hidden h-[60vh]">
-                    <img class="w-full h-full object-cover" src="{{ asset('images/location/gallemap.png') }}"
-                        alt="Mirissa Location Map" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19999.073408649932!2d80.45743735909214!3d5.950709541236227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13fd2d1f6d6a9%3A0x456f17ab9ad29fa1!2sSailors%20Mirissa!5e0!3m2!1sen!2slk!4v1759254691896!5m2!1sen!2slk" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
